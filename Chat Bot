@@ -1,0 +1,40 @@
+/*Type your code here .. 
+	Fundamentals
+	---------------
+	1.Input/Output operations
+	2.Operators
+	3.Conditions
+	3.Variables
+	4.Lists
+	5.Loops
+	6.Functions
+
+	AIM
+	---------
+	1.Aim
+	2.Exp O/p
+	3.Logic
+	4.Algorithm
+	5.Code
+	-------------------------
+
+	Computer Understandable
+	Human Understandable
+
+
+*/
+
+Bot.send("What Is Your Name ?");
+async function respond(inputText) 
+{
+	var name=inputText.toLowerCase();
+	if( name == "saran" )
+	{
+		Bot.send("Hello Saran");
+	}
+	else
+	{
+		Bot.send("Sorry I Don't Know You");
+	}
+	//Bot.send("Welcome");
+}
